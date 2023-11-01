@@ -161,3 +161,44 @@
    background-color: #52bd52;
    color: white;
  }
+ /* footer section start here */
+ footer{
+   background-color: darkmagenta;
+ }
+
+ .footer-container{
+   margin: auto;
+   padding: 30px 0;
+   width: 1000px;
+   color: white;
+   display: grid;
+   grid-template-columns: repeat(3, 1fr);
+   grid-column-gap: 10px;
+ }
+ .footer-container a{
+   text-decoration: none;
+   color: white;
+   
+ }
+ .f-first-div p{
+   margin-top: 20px;
+   margin-bottom: 40px;
+ }
+ .f-second-div ul{
+   list-style-type: none;
+  margin-top: 20px;
+ }
+ .f-second-div ul li{
+   margin: 8px 0;
+ }
+ .f-third-div a{
+   margin: 0 5px;
+   padding: 5px 5px;
+   background-color: black;
+   border-radius: 6px;
+ }
+ .f-third-div p{
+   width: 100px;
+   margin-top: 20px;
+   margin-bottom: 70px;
+ }
