@@ -82,7 +82,7 @@
  #latest-video-section{
     width: 1100px;
     margin: auto;
-    padding-top: 50px;
+    padding: 50px 0;
  }
  .latest-video-page-text{
     display: flex;
@@ -128,4 +128,36 @@
     justify-content: space-between;
    margin-top: 10px;
     color: gray;
+ }
+
+ /* previous-next-btn code start here */
+
+ .previous-next-btn{
+   margin-top: 50px;
+   display: flex;
+   justify-content: space-between;
+ }
+ .previous-next-btn h3 a{
+   text-decoration: none;
+   background-color: #52bd52;
+   color: white;
+   padding: 10px 25px;
+   border-radius: 5px;
+   transition: 0.5s;
+ }
+ .previous-next-btn h3 a:hover{
+   background-color: #044404;
+ }
+ .previous-next-btn div a{
+   text-decoration: none;
+   background-color: #d4d2d2;
+   color: black;
+   margin: 0 5px;
+   padding: 5px;
+   border-radius: 5px;
+   border: 1px solid #3f3b3b;
+ }
+ .previous-next-btn div a:first-child{
+   background-color: #52bd52;
+   color: white;
  }
